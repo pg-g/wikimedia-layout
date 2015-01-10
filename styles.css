@@ -1,1 +1,65 @@
+/* 	GLOBAL STYLES  */
+body {
+	padding: 2% 2%;
+}
 
+a {
+	text-decoration: none;
+	color: #0645AD;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.right {
+	text-align: right;
+}
+
+
+/* 	SPECIFIC STYLES  */
+.container {
+	font-family: sans-serif;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.intro {
+	line-height: 1.7em;
+	letter-spacing: .005em;
+	padding: 0 10%;
+}
+
+.logos {
+	clear: both;
+	margin: 20px 0;
+	box-sizing: border-box;
+}
+
+.logoBox {
+	/*border: 1px solid #ccc;*/
+	width: 23%;
+	height: 130px;
+	margin-bottom: 15px;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.logoBox img {
+	max-width: 80%;
+	margin: 0px;
+	max-height: 125px;
+}
+
+
+footer {
+	text-align: center;
+	font-size: 13px;
+	width: 90%;
+	margin: auto;
+}
+
+footer a:last-child {
+	margin-left: 10px;
+}
